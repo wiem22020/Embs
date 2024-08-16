@@ -1,10 +1,25 @@
-/********** Template CSS **********/
+/********** Template CSS ********/
+.border-blue {
+    border-color: var(--primary) !important
+}
+
+.titre {
+    font-size: 3.5rem;
+    font-weight: 1000
+;
+    line-height: 1.2
+}
+
 :root {
-    --primary: #355EFC;
+    --primary: #2f6db4;
     --secondary: #E93C05;
-    --tertiary: #555555;
+    --tertiary: #000;
     --light: #DFE4FD;
     --dark: #011A41;
+}
+
+.text-center {
+    text-align: center !important;
 }
 
 .back-to-top {
@@ -194,7 +209,7 @@ h6,
         position: relative;
         min-height: 450px;
     }
-    
+
     #header-carousel .carousel-item img {
         position: absolute;
         width: 100%;
